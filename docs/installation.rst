@@ -122,7 +122,7 @@ before running the ``pip3 install`` command and omit the ``sudo`` prefix.
 .. raw:: html
 
     <div class="bash-code">
-    sudo apt install gcc python3-pip python3-dev libhdf5-dev python3-h5py -y
+    sudo apt install gcc python3-pip python3-dev libhdf5-dev python3-h5py python3-psutil -y
     sudo pip3 install joule
     sudo joule admin initialize --dsn joule:joule@localhost:5432/joule
     </div>
