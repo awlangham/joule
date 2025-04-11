@@ -66,7 +66,7 @@ ARGS_DESC = """
 
 :module_config:
     [Main]
-    name = Mean Filter
+    name = Median Filter
     exec_cmd = joule-median-filter
 
     [Arguments]
